@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 30px;
+    margin: 0;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#head {
+    float: left;
+    color: white;
+    background: #4aaaa5;
+    padding: 10px 20px;
+    margin-left: 20%;
+}
+
+.top {
+    padding: 10px;
+    align-self: center;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    align-self: center;
+}
+
+nav {
+    float: right;
+    margin-right: 20%;
+    position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#me {
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    height: 225px;
+}
+
+section {
+    position: fixed;
+    background: white;
+    width: 960px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    overflow: scroll;
+    clear: both;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+body {
+    background-image: url("../images/gravel.png");
+}
+
+figure {
+    margin-left: 40px;
+    overflow: scroll;
+}
+
+.potatoes {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    color: #777777;
+}
+
+#p2 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #777777;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 30%;
+    margin: 5px;
+}
+
+button {
+    color: white;
+    padding: 5px 10px;
+    margin-left: 20px;
+    background: #4aaaa5;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 10px
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    color: #777777
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+        padding: 0;
+        text-align: center
+    }
+
+
+    #head {
+        font-size: 20px;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    nav {
+        padding: 10px 50% 10px 50%;
+        background: white;
+        margin-right: 0;
+    }
+
+    ul {
+        display: inline-flex;
+        margin-left: 50%;
+    }
+
+    li {
+        margin-right: 15px;
+    }
+
+    section {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        overflow-y: scroll;
+    }
+
+    figure {
+        margin: 20px 10% 20px 10%;
+        overflow-y: scroll;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #message {
+        margin-top: 30px;
+    }
+}
